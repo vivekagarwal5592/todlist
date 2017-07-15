@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/category"
+        android:orderInCategory="100"
+        android:title="Categories"
+        app:showAsAction="always" >
+
+        <menu>
+            <item
+                android:id="@+id/All"
+                android:orderInCategory="100"
+                android:title="All"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/homework"
+                android:orderInCategory="100"
+                android:title="Homwork"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/groceries"
+                android:orderInCategory="100"
+                android:title="Groceries"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/bills"
+                android:orderInCategory="100"
+                android:title="Bills"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/assignment"
+                android:orderInCategory="100"
+                android:title="Assignment"
+                app:showAsAction="always" />
+
+        </menu>
+
+        </item>
+
+
+</menu>
